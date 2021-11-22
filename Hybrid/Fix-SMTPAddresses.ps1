@@ -51,7 +51,7 @@
 
 [CmdletBinding()]
 Param (
-    [String]  $InputCSV #= '.\BatchCSVFiles\20211111 - Batch 1.csv',
+    [String]  $InputCSV,
     [String]  $Delimiter = ',',
     [Boolean] $autoSyncAfterChanges = $true,
     [String]  $syncServer = "AADConnectServer",
