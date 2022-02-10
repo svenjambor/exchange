@@ -41,7 +41,7 @@
       Export Directory for internal CSV handling. Defaults to script's location 
 
       .EXAMPLE
-       .\Move-ADGroupToCloud.ps1 -Group "DL-Marketing" -CreatePlaceHolder -autoSyncAfterChanges -syncServer "AzureADConnectServer"
+       .\Move-ADGroupToCloud.ps1 -Group "DL-Marketing" -CreatePlaceHolder -syncServer "AzureADConnectServer" -HideOnPremisesGroup
 
       .EXAMPLE
        .\Move-ADGroupToCloud.ps -Group "DL-Marketing" -Finalize
